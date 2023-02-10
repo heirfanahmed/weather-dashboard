@@ -91,9 +91,7 @@ function currentWeather(city){
 // Here we display the 5 days forecast for the current city.
 function forecast(cityid){
     var dayover= false;
-//     var queryforcastURL="https://api.openweathermap.org/data/2.5/forecast?id="+cityid+"&appid="+APIKey;
-    var queryforcastURL="api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}"+cityid+"&appid="+APIKey;
-
+    var queryforcastURL="https://api.openweathermap.org/data/2.5/forecast?id="+cityid+"&appid="+APIKey;
     $.ajax({
         url:queryforcastURL,
         method:"GET"
