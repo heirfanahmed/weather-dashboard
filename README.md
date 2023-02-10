@@ -21,7 +21,7 @@
 6. The following points show how the app should works:
     * When a user searches for a city they are presented with current and future conditions for that city and that city is added to the search history.
 
-    * The latest 6 search history is displayed below the search button.
+    * The search history is displayed below the search button with a clear button to clear the search history.
 
     * When a user views the current weather conditions for that city they are presented with:
         * The city name
@@ -54,6 +54,6 @@
 
 ## Links to the deployed website and repository URL:
 
-### Repository URL: 
+### Repository URL: https://github.com/heirfanahmed/weather-dashboard
 
-### Deployed website: 
+### Deployed website: https://heirfanahmed.github.io/weather-dashboard/
