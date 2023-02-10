@@ -1,33 +1,26 @@
-.container-fluid {
-    margin-top: auto;
+*{
+    box-sizing: border-box;
     
 }
 
-h1, #search-button {
-    background-color: blue;
-    color: white;
-    text-align: center;
-    font-family: "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-}
-
-#search-input {
-    height: 30px;
-    width: 160px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-
-#search-button {
-    background-color: rgb(rgb(98, 171, 214), green, blue);
-    color: white;
-    font-family: "Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-    /* display: grid; */
-    /* text-align: center; */
-    /* justify-content: center; */
-    height: 30px;
-    width: 160px;
-    cursor: pointer;
-    margin-left: 10px;
-    text-justify: auto;
+body {
     
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h3{
+    font-weight: bold;
+}
+.forecast{
+    
+    font-size: 0.9em;
+}
+span{
+    font-size: 1em;
+}
+li:hover{
+    background-color: lightslategray;
+    text-decoration: underline;
 }
