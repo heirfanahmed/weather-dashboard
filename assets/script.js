@@ -21,7 +21,8 @@ function find(c){
     return 1;
 }
 //Set up the API key
-var APIKey="b218b877a4fe40687eb5f071afb6252a";
+// var APIKey="b218b877a4fe40687eb5f071afb6252a";
+var APIKey="8e0e87c0fa943661648c1862e3bf91c4";
 
 // Display the curent and future weather to the user after grabing the city form the input text box.
 function displayWeather(event){
